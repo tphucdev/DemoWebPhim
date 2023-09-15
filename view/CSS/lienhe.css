@@ -1,0 +1,199 @@
+.info{
+
+}
+
+.info h2{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #a00e13;
+    margin-bottom: 20px;
+}
+
+.info span{
+    display: block;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: #2a2828;
+}
+
+
+.info-email{
+    display: flex;
+}
+
+.info-email-link a{
+    display: block;
+    margin-left: 10px ;
+    text-decoration: none;
+    margin-bottom: 6px;
+    color: #2a2828;
+}
+
+.info-email-link a:hover{
+    color: #c30005;
+}
+
+.info-link{
+    display: flex;
+    
+}
+
+.info-link-fb{
+    width: 40px;
+    height: 40px;
+}
+
+.info-link-link {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+    color: #2a2828;
+    margin: 20px 20px 0 20px;
+    border-radius: 50px;
+    border: solid 2px #2a2828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.info-link a:first-child{
+    margin-left: 0;
+}
+
+.info-link-link-fb:hover{
+    background-color:  #3a589d;
+    color: white;
+    cursor: pointer;
+}
+
+.info-link-link-instagram:hover{
+    background-color:  #3b6994;
+    color: white;
+    cursor: pointer;
+}
+
+.info-link-link-twitter:hover{
+    background-color:  #2478ba;
+    color: white;
+    cursor: pointer;
+}
+
+.info-link-link-rss:hover{
+    background-color:  #fc7600;
+    color: white ;
+    cursor: pointer;
+}
+
+.fa-solid.fa-rss:hover{
+    color: white;
+}
+
+.feed{
+}
+
+.feed-name,
+.feed-address{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.feed-name > input,
+.feed-address > input{
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #2a2828;
+    font-weight: 600;
+    border: solid #999 1px;
+    outline: none;
+}
+
+.feed-message{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.feed-message > input{
+    width: 100%;
+    height: 120px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #2a2828;
+    font-weight: 600;
+    border: solid #999 1px;
+    outline: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.feed-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.feed-btn-btn{
+    width: 286px;
+    height: 40px;
+    background-color: #c30005;
+    border: none;
+    border-radius: 2px;
+}
+
+.feed-btn-btn:hover{
+    background-color: #93050a;
+    cursor: pointer;
+}
+
+.feed-btn-btn a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@keyframes fadeInleft{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInright{
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.content{
+    animation: fadeInleft ease-in-out 1.2s;
+}
+
+.feed{
+    animation: fadeInright ease-in-out 1.2s;
+}
+
+/* Slider */
+#slider2{
+    width: 100%;
+    height: 600px;
+}
+
+.slider-container{
+    width: 100%;
+    height: 100%;
+}
